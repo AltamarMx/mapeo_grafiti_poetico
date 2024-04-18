@@ -102,10 +102,47 @@ Foto propia
 
 
 
-## Grafiti poético 
-
-![](img/protege.jpeg)
+##  {background-image="img/protege.jpeg" background-size="contain" background-position="center"}
 
 ::: footer 
 Foto propia
+:::
+
+
+
+##  {background-image="img/amor_guerra.jpeg" background-size="contain" background-position="center"}
+
+::: footer 
+Foto propia
+:::
+
+##  {background-image="img/besame.jpg" background-size="contain" background-position="center"}
+
+::: footer 
+Foto propia
+:::
+
+
+
+##  {background-image="img/pines.png" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Mapeos  {.r-fit-text}
+
+::: incremental
+-   Respuesta a desastres 
+-   Planeación urbana
+-   Conservación ambiental
+-   Potencial energético
+-   Turismo
+:::
+:::
+:::
+
+::: footer 
+Imagen ChatGPT
 :::
