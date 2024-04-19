@@ -2,16 +2,43 @@
 title: Descubrimiento y mapeo de *grafiti poético*
 
 author:
-  - Guillermo Barrios del Valle
+  name: Guillermo Barrios del Valle
+  email: gbv@ier.unam.mx
+  afiliation: Instituto de Energías Renovables, UNAM
 format: 
   revealjs:
     slide-number: c/t
-    incremental: true
-    # background-image: img/banksy.jpeg
-    # background-size: cover  
-    # background-opacity: 1
+    touch: true
+    
+title-slide-attributes:
+    data-background-image: img/grafiti_crime.png
+    data-background-opacity: "0.4"
+    data-background-size: "500px"
+    data-background-position: left
+footer: Imagen por Banksy
 ---
 
+
+
+
+##  {background-image="img/app.webp" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Objetivo  {.r-fit-text}
+
+::: incremental
+Crear una app de celular para geolocalizar grafitis __poéticos__ junto con su texto como inspiración para proyectos de __ciencia ciudadana__.
+:::
+:::
+:::
+
+::: footer 
+Imagen por ChatGPT
+:::
 
 ##  {background-image="img/banksy.jpeg" background-size="contain" background-position="left"}
 
@@ -24,8 +51,8 @@ format:
 
 ::: incremental
 -   Grafiti y **grafiti poético** 
--   Mapeos en el mundo
--   Ciencia ciudadana
+-   Mapeos en el mundo y conceptos de ciencia ciudadana
+-   Mapeador@s
 -   Prototipo de app para mapeo de grafiti poético
 :::
 :::
@@ -91,9 +118,6 @@ Foto propia
 
 
 
-
-
-
 ## Grafiti <br> poético {background-image="img/belleza.jpeg" background-size="contain" background-position="center"}
 
 ::: footer 
@@ -146,3 +170,148 @@ Foto propia
 ::: footer 
 Imagen ChatGPT
 :::
+
+
+
+
+## Grafiti <br> poético {background-image="img/belleza.jpeg" background-size="contain" background-position="center"}
+
+::: footer 
+Foto propia
+:::
+
+
+
+##  {background-image="img/protege.jpeg" background-size="contain" background-position="center"}
+
+::: footer 
+Foto propia
+:::
+
+
+
+##  {background-image="img/amor_guerra.jpeg" background-size="contain" background-position="center"}
+
+::: footer 
+Foto propia
+:::
+
+##  {background-image="img/besame.jpg" background-size="contain" background-position="center"}
+
+::: footer 
+Foto propia
+:::
+
+
+
+##  {background-image="img/openstreet.png" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Mapeos  {.r-fit-text}
+
+::: incremental
+-   Proyecto abierto 
+-   Manejado por la comunidad
+-   Impacto humanitario
+-   Mapatones
+-   Alcance global impresionante
+:::
+:::
+:::
+
+::: footer 
+Screenshot
+:::
+
+
+
+
+##  {background-image="img/mapaton.png" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Mapeos  {.r-fit-text}
+
+::: incremental
+-   Registrarse en el Tasking Manager de HOT 
+-   Selección de zonas disponibles para mapeo
+-   Zonas terminadas y prioritarias
+-   Verificación por usuario (+) intermedios
+:::
+:::
+:::
+
+::: footer 
+Screenshot
+:::
+
+
+
+## Convocatoria Acapulco
+
+![](img/guerrero.png)
+
+::: footer 
+Screenshot de la red
+:::
+
+
+
+##  {background-image="img/geochicas.png" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### GeoChicas  {.r-fit-text}
+
+Grupo de mujeres mapeadoras de #OpenStreetMap y @osgeo. Trabajamos para cerrar la brecha de género.
+#OSMintegra #WomeninTech #DiversityInGeo
+:::
+:::
+
+::: footer 
+Screenshot
+:::
+
+
+## Un violador en tu camino
+![](img/violador_en_tu_camino.png)
+
+
+::: footer 
+Screenshot de la red
+:::
+
+
+
+
+##  {background-image="img/mitappinventor.png" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Vamos a hacer la app  {.r-fit-text}
+
+<br> <br> 
+
+1. Localizarnos
+1. Registrar posición en un documento en drive
+1. Agregar texto del __grafiti poético__
+
+:::
+:::
+::: footer 
+Screenshot
+:::
+
