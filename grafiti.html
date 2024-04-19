@@ -576,6 +576,50 @@ Guillermo Barrios del Valle
 <div class="footer">
 <p>Screenshot</p>
 </div>
+</section>
+<section id="section-15" class="slide level2" data-background-image="img/mitappinventor.png" data-background-size="contain" data-background-position="left">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+
+</div><div class="column" style="width:60%;">
+<h3 class="r-fit-text" id="pasos">Pasos</h3>
+<h4 id="interfaz-diseñador">Interfaz diseñador</h4>
+<ol type="1">
+<li>Crea una hoja de calculo en google sheets</li>
+<li>Tools -&gt; create a new form</li>
+<li>En el formulario, settings, do not collect email y que no sea exclusivo para el IER</li>
+<li>Crea las preguntas o campos obligatorias con short answer</li>
+<li>Ve a app inventor, nuevo proyecto</li>
+<li>Agrega en Disposición, disposición horizontal y ponle 10% de alto y ajustar al contenedor en ancho</li>
+<li>Pon una etiqueta y ponle el nombre de lo que quieres recolectar</li>
+<li>Agrega una caja de texto</li>
+<li>Pon un botón de enviar</li>
+<li>Arrastra de connectividad Web, cuida que aparezca en los componentes</li>
+</ol>
+<h4 id="interfaz-bloques">Interfaz bloques</h4>
+<ol type="1">
+<li>Selecciona EnviarBtn y cuando EnviarBtn.click ejecutar</li>
+<li>Web, set Web Url como</li>
+<li>Texto, unir con 5 elementos</li>
+<li>Regresa al formulario. tres puntos y get prefilled link</li>
+<li>Copia la direccion del prefilled link</li>
+<li>Regresa a la app, toma una de texto “”</li>
+<li>Pega el link del formulario prellenado en el objeto anterior</li>
+<li>En el texto quita prefill sin la diagonal y escribe “formResponse”</li>
+<li>En la forma pre fill, pon una respuesta, get prefille link y copialo a un block de notas</li>
+<li>Lo importante del link es &amp;entry.NUMEROTE= es importante la correspondencia</li>
+<li>Agrego un texto “” y pegas los &amp;entre.NUMERO=</li>
+<li>Solo para el primero reemplazas &amp; por ?</li>
+<li>EL siguiente elemento es del boton CampodeTexto.Texto</li>
+<li>Este proceso se repite en el orden del prefilled link</li>
+<li>Web.Obtener</li>
+</ol>
+</div>
+</div>
+<div class="footer">
+<p>Screenshot</p>
+</div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>Imagen por Banksy</p>

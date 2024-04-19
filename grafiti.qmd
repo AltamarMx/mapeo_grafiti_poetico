@@ -315,3 +315,59 @@ Screenshot de la red
 Screenshot
 :::
 
+
+
+
+##  {background-image="img/mitappinventor.png" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Pasos  {.r-fit-text}
+
+
+#### Interfaz diseñador
+
+1. Crea una hoja de calculo en google sheets
+1. Tools -> create a new form
+1. En el formulario, settings, do not collect email y que no sea exclusivo para el IER
+1. Crea las preguntas o campos obligatorias con short answer
+1. Ve a app inventor, nuevo proyecto
+1. Agrega en Disposición, disposición horizontal y ponle 10% de alto y ajustar al contenedor en ancho
+1. Pon una etiqueta y ponle el nombre de lo que quieres recolectar
+1. Agrega una caja de texto
+1. Pon un botón de enviar
+1. Arrastra de connectividad Web, cuida que aparezca en los componentes
+
+#### Interfaz bloques 
+
+1. Selecciona EnviarBtn y cuando EnviarBtn.click ejecutar
+1. Web, set Web Url como
+1. Texto, unir con 5 elementos
+1. Regresa al formulario. tres puntos y get prefilled link 
+1. Copia la direccion del prefilled link
+1. Regresa a la app, toma una de texto "" 
+1. Pega el link del formulario prellenado en el objeto anterior
+1. En el texto quita prefill sin la diagonal y escribe "formResponse"
+1. En la forma pre fill, pon una respuesta, get prefille link y copialo a un block de notas
+1. Lo importante del link es &entry.NUMEROTE=    es importante la correspondencia
+1. Agrego un texto "" y pegas los &entre.NUMERO=
+1. Solo para el primero reemplazas & por ? 
+1. EL siguiente elemento es del boton CampodeTexto.Texto
+1. Este proceso se repite en el orden del prefilled link 
+1. Web.Obtener
+
+
+
+
+:::
+:::
+::: footer 
+Screenshot
+:::
+
+
+
+
