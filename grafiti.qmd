@@ -15,11 +15,12 @@ title-slide-attributes:
     data-background-opacity: "0.4"
     data-background-size: "500px"
     data-background-position: left
-footer: Imagen por Banksy
 ---
 
+## Ten la presentacion 
 
 
+![](img/qrcode.png){fig-align="center"}
 
 ##  {background-image="img/app.webp" background-size="contain" background-position="left"}
 
@@ -68,26 +69,20 @@ Banksy
 ##  {background-image="img/vulva_revolucionaria.png" background-size="contain" background-position="left"}
 
 ::: columns
+
 ::: {.column width="40%"}
 :::
 
 ::: {.column width="60%"}
 ### ¿Grafiti?  {.r-fit-text}
 
-::: incremental
-"En pocas palabras, el grafiti es la voz social de aquellos que se expresan en un espacio no asignado para ese fin..."
+En pocas palabras, el grafiti es 
+la voz social de aquellos que se expresan en un espacio no asignado para ese fin...^[El graffiti como arte y la calle como lienzo por Mauro Álvarez, Héctor Miguel ]
 :::
 :::
-:::
 
-::: footer 
-Foto propia <br>
+::: aside
 
-El graffiti como arte y la calle como lienzo
-
-Mauro Álvarez, Héctor Miguel
-
-Facultad de Estudios Superiores Aragón, UNAM, Tesis y cosechado de Repositorio de la Dirección General de Bibliotecas y Servicios Digitales de Información
 
 :::
 
@@ -172,7 +167,7 @@ Imagen ChatGPT
 :::
 
 
-
+<!-- 
 
 ## Grafiti <br> poético {background-image="img/belleza.jpeg" background-size="contain" background-position="center"}
 
@@ -200,7 +195,7 @@ Foto propia
 
 ::: footer 
 Foto propia
-:::
+::: -->
 
 
 
@@ -255,7 +250,7 @@ Screenshot
 
 
 ## Convocatoria Acapulco
-
+<br>
 ![](img/guerrero.png)
 
 ::: footer 
@@ -297,10 +292,10 @@ Screenshot de la red
 ##  {background-image="img/mitappinventor.png" background-size="contain" background-position="left"}
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 ### Vamos a hacer la app  {.r-fit-text}
 
 <br> <br> 
@@ -318,17 +313,53 @@ Screenshot
 
 
 
-##  {background-image="img/mitappinventor.png" background-size="contain" background-position="left"}
+
+##  {background-image="img/app.webp" background-size="contain" background-position="left"}
 
 ::: columns
 ::: {.column width="40%"}
 :::
 
 ::: {.column width="60%"}
-### Pasos  {.r-fit-text}
+### Diseñemos la app  {.r-fit-text}
+![](img/design_app.webp)
+:::
+:::
+
+::: footer 
+Imagen por ChatGPT
+:::
 
 
-#### Interfaz diseñador
+
+
+##  {background-image="img/app.webp" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+### Pasos faltantes  {.r-fit-text}
+1. App para leer ubicaciones y texto
+1. Diseño de sistema de verificación
+1. 
+:::
+:::
+
+::: footer 
+Imagen por ChatGPT
+:::
+
+
+
+
+
+
+
+
+## Pasos {.r-fit-text .scrollable}
+### Interfaz diseñador
 
 1. Crea una hoja de calculo en google sheets
 1. Tools -> create a new form
@@ -341,7 +372,7 @@ Screenshot
 1. Pon un botón de enviar
 1. Arrastra de connectividad Web, cuida que aparezca en los componentes
 
-#### Interfaz bloques 
+### Interfaz bloques 
 
 1. Selecciona EnviarBtn y cuando EnviarBtn.click ejecutar
 1. Web, set Web Url como
@@ -358,16 +389,6 @@ Screenshot
 1. EL siguiente elemento es del boton CampodeTexto.Texto
 1. Este proceso se repite en el orden del prefilled link 
 1. Web.Obtener
-
-
-
-
-:::
-:::
-::: footer 
-Screenshot
-:::
-
 
 
 
